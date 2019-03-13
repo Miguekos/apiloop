@@ -28,7 +28,6 @@ module.exports = function(Tbuser) {
 
 
   Tbuser.status = function(data, cb) {
-
     // console.log(data);
     // cb (null, data);
     var email = data.email;
