@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "localpostgres": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "vueadmin",
+    "password": "postgres",
+    "name": "localpostgres",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "tbuser",
+  "plural": "tbusers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true,
+      "default": "guest"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {
+    "login": {
+      "accepts": [
+        {
+          "arg": "data",
+          "type": "object",
+          "http": {
+            "source": "body"
+          }
+        }
+      ],
+      "http": {
+        "verb": "post",
+        "status": 200
+      },
+      "returns": {
+        "root" : true
+      }
+    },
+    "status": {
+      "accepts": [
+        {
+          "arg": "data",
+          "type": "object",
+          "http": {
+            "source": "body"
+          }
+        }
+      ],
+      "http": {
+        "verb": "post"
+      },
+      "returns": {"root": true}
+    }
+  }
+}
