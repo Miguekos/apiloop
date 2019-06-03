@@ -1,13 +1,13 @@
+/* eslint-disable */
 'use strict';
 
-
-
 module.exports = function(Tbuser) {
-
   Tbuser.login = function(data, cb) {
-
+    console.log(data);
     var email = data.email;
+    console.log(email);
     var pass = data.password;
+    console.log(pass);
     var ds = Tbuser.dataSource;
     var query = `select * from public.tbuser where email = $1 and password = $2`;
     var params = [email, pass];
@@ -25,8 +25,6 @@ module.exports = function(Tbuser) {
       }
     })
   };
-
-
   Tbuser.status = function(data, cb) {
     // console.log(data);
     // cb (null, data);
