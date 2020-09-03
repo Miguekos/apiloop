@@ -1466,9 +1466,9 @@ loopback-swagger@^5.0.0:
     lodash "^4.17.2"
     strong-globalize "^4.1.1"
 
-loopback@^3.22.0:
-  version "3.25.0"
-  resolved "https://registry.yarnpkg.com/loopback/-/loopback-3.25.0.tgz#24478fcf04c4f2bbd6eaa0f18362fa60bbcf6635"
+loopback@^3.25.1:
+  version "3.25.1"
+  resolved "https://registry.yarnpkg.com/loopback/-/loopback-3.25.1.tgz#651af40e6626a49216885364d4812b1f3cab9020"
   dependencies:
     async "^2.0.1"
     bcryptjs "^2.1.0"
