@@ -338,10 +338,6 @@ circular-json@^0.3.1:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
 
-cldrjs@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/cldrjs/-/cldrjs-0.5.1.tgz#b5dc4beae02555634b04b94deb8e22e13ff10319"
-
 cldrjs@^0.5.4:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/cldrjs/-/cldrjs-0.5.5.tgz#5c92ca2de89a8a16dea76cb2dfc4e00104428e52"
@@ -522,7 +518,7 @@ debug@^3.1.0:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.1, debug@^4.2.0, debug@^4.3.4:
+debug@^4.1.1, debug@^4.2.0, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   dependencies:
@@ -1051,13 +1047,7 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-globalize@^1.3.0:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/globalize/-/globalize-1.4.2.tgz#3ff354c7ced0bbfab4cf7896d8cbb6f4c0fc37f5"
-  dependencies:
-    cldrjs "^0.5.0"
-
-globalize@^1.6.0:
+globalize@^1.4.2, globalize@^1.6.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/globalize/-/globalize-1.7.0.tgz#321201eb18ded16d3f03c8d4ddbcb5d1edd6d4c2"
   dependencies:
@@ -1909,7 +1899,7 @@ os-locale@^2.1.0:
     lcid "^1.0.0"
     mem "^1.1.0"
 
-os-locale@^3.0.1:
+os-locale@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/os-locale/-/os-locale-3.1.0.tgz#a802a6ee17f24c10483ab9935719cef4ed16bf1a"
   dependencies:
@@ -2506,16 +2496,16 @@ strong-globalize@^2.6.2:
     yamljs "^0.3.0"
 
 strong-globalize@^4.1.0, strong-globalize@^4.1.1:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/strong-globalize/-/strong-globalize-4.1.2.tgz#9679b1e6cde2bf88d2843a0815fd6d9a5ee34de4"
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/strong-globalize/-/strong-globalize-4.1.3.tgz#7ee33da3b22cb867217a194bbb6d42d997fed2cd"
   dependencies:
     accept-language "^3.0.18"
-    debug "^4.0.1"
-    globalize "^1.3.0"
+    debug "^4.1.1"
+    globalize "^1.4.2"
     lodash "^4.17.4"
     md5 "^2.2.1"
     mkdirp "^0.5.1"
-    os-locale "^3.0.1"
+    os-locale "^3.1.0"
     yamljs "^0.3.0"
 
 strong-globalize@^6.0.0, strong-globalize@^6.0.5:
